@@ -61,3 +61,12 @@ oh-party/
 └── assets/
     └── images/
         └── [todos los recursos]
+
+## Nueva fotografía — 40 años
+
+- `evento-cumpleanos-40.webp`
+  - Fotografía optimizada para web de celebración de 40 años.
+  - Integrada en la galería de escenarios reales.
+
+- `evento-cumpleanos-40-original.png`
+  - Copia original sin optimización.

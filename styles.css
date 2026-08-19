@@ -1409,7 +1409,7 @@ body:not(.is-loading) .scribble::after {
 .real-gallery-grid {
   margin-top: 62px;
   display: grid;
-  grid-template-columns: 1fr 1fr .86fr;
+  grid-template-columns: 1fr 1fr;
   gap: 22px;
   align-items: start;
 }
@@ -1485,7 +1485,7 @@ body:not(.is-loading) .scribble::after {
 }
 
 .gallery-story-card {
-  margin-top: 135px;
+  margin-top: 64px;
   padding: 28px;
   border: 2px solid var(--ink);
   border-radius: 30px;
@@ -1595,5 +1595,26 @@ body:not(.is-loading) .scribble::after {
     grid-column: auto;
     margin-top: 0;
     transform: none;
+  }
+}
+
+
+.real-shot--40 {
+  margin-top: -10px;
+}
+
+.photo-label--gold {
+  background: #f3c64e;
+}
+
+@media (max-width: 950px) {
+  .real-shot--40 {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .real-shot--40 {
+    margin-top: 0;
   }
 }

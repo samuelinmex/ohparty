@@ -60,3 +60,12 @@ Esta versión ya integra el logo real de Oh Party!, sus variantes para web,
 favicon y las dos fotografías reales proporcionadas para la sección visual del sitio.
 
 No muevas los archivos fuera de `/assets/images/` sin actualizar sus rutas en `index.html`.
+
+
+## Actualización — fotografía de 40 años
+
+Se agregó una tercera fotografía real a la galería:
+`/assets/images/evento-cumpleanos-40.webp`
+
+También se conserva el archivo original:
+`/assets/images/evento-cumpleanos-40-original.png`
