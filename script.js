@@ -171,3 +171,19 @@ ${idea}
 
   openWhatsApp(message);
 });
+
+
+// OhPartyRealPhotos: very subtle depth for real event photography
+const ohPartyRealPhotos = $$(".real-shot img");
+
+if (!reducedMotion && finePointer) {
+  window.addEventListener("scroll", () => {
+    const vh = window.innerHeight;
+    ohPartyRealPhotos.forEach((img) => {
+      const rect = img.getBoundingClientRect();
+      if (rect.bottom < 0 || rect.top > vh) return;
+      const p = (rect.top + rect.height / 2 - vh / 2) / vh;
+      img.style.objectPosition = `center ${50 + p * 5}%`;
+    });
+  }, { passive: true });
+}

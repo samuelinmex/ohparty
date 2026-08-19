@@ -15,6 +15,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="./favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32.png">
+  <link rel="apple-touch-icon" href="./assets/images/apple-touch-icon.png">
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body class="is-loading">
@@ -24,14 +27,15 @@
   <div class="grain" aria-hidden="true"></div>
 
   <header class="site-header">
-    <a class="brand" href="#inicio" aria-label="Oh Party! Inicio">
-      <span class="brand-mark">OH</span>
-      <span class="brand-word">PARTY!</span>
+    <a class="brand brand--image" href="#inicio" aria-label="Oh Party! Inicio">
+      <img src="./assets/images/oh-party-logo-header.png"
+           alt="Oh Party! — Creamos el escenario de tus mejores recuerdos">
     </a>
 
     <nav class="main-nav" aria-label="Navegación principal">
       <a href="#como-funciona">Cómo funciona</a>
       <a href="#celebraciones">Celebraciones</a>
+      <a href="#galeria-real">Galería</a>
       <a href="#cotiza">Cotiza</a>
     </nav>
 
@@ -45,13 +49,11 @@
       <div class="hero-copy reveal-group">
         <p class="eyebrow"><span class="spark">✦</span> Celebraciones con personalidad</p>
         <h1>
-          Tu fiesta no tiene que verse
-          <span class="scribble">como todas.</span>
+          Creamos el escenario
+          <span class="scribble">de tus mejores recuerdos.</span>
         </h1>
         <p class="hero-lead">
-          Cuéntanos qué quieres celebrar, qué te gusta y cómo quieres que se sienta.
-          En <strong>Oh Party!</strong> convertimos esa idea en una experiencia que
-          se siente divertida, cuidada y, sobre todo, tuya.
+          Renta de mobiliario decorativo, ambientación y montajes con personalidad. En <strong>Oh Party!</strong> transformamos un espacio común en el lugar donde comienza el recuerdo.
         </p>
 
         <div class="hero-actions">
@@ -66,20 +68,22 @@
         </div>
       </div>
 
-      <div class="hero-stage" aria-label="Una fiesta con personalidad">
+      <div class="hero-stage hero-stage--real" aria-label="Evento real creado por Oh Party!">
         <div class="party-orbit" aria-hidden="true"></div>
-        <div class="ticket ticket--main">
-          <p class="ticket-kicker">ADMIT ONE</p>
-          <div class="ticket-title">OH<br>PARTY!</div>
-          <div class="ticket-cut"></div>
-          <p class="ticket-note">para una celebración que sí se sienta como tú</p>
+
+        <figure class="hero-photo-card">
+          <img src="./assets/images/evento-cumpleanos-01.webp"
+               alt="Decoración real de cumpleaños creada por Oh Party! con globos de colores y paneles decorativos"
+               fetchpriority="high">
+          <figcaption><span class="live-dot"></span> Un escenario real de Oh Party!</figcaption>
+        </figure>
+
+        <div class="hero-logo-float" aria-hidden="true">
+          <img src="./assets/images/oh-party-logo-master.png" alt="">
         </div>
 
-        <div class="sticker sticker--pink">CERO<br>ABURRIDO</div>
-        <div class="sticker sticker--sun">✹</div>
-        <div class="sticker sticker--note">good<br>times!</div>
-        <div class="ball ball--one"></div>
-        <div class="ball ball--two"></div>
+        <div class="floating-badge floating-badge--one">✨ Hecho<br>para recordar</div>
+        <div class="floating-badge floating-badge--two">100%<br>personalizable</div>
 
         <div class="confetti confetti--1"></div>
         <div class="confetti confetti--2"></div>
@@ -164,6 +168,59 @@
           <span class="mood-title">Sorpresa</span>
           <span class="mood-copy">Tú distraes. Nosotros hacemos que pase.</span>
         </button>
+      </div>
+    </section>
+
+
+    <section class="section real-gallery" id="galeria-real">
+      <div class="section-heading section-heading--split reveal">
+        <div>
+          <p class="eyebrow">Esto sí pasó.</p>
+          <h2>Escenarios reales.<br><em>Recuerdos de verdad.</em></h2>
+        </div>
+        <p>
+          Aquí no necesitas imaginar cómo podría verse. Estas fotografías son parte de un montaje real:
+          color, volumen y elementos decorativos trabajando juntos para transformar el espacio.
+        </p>
+      </div>
+
+      <div class="real-gallery-grid reveal-stagger">
+        <figure class="real-shot">
+          <div class="real-shot-image">
+            <img src="./assets/images/evento-cumpleanos-01.webp"
+                 alt="Primer cumpleaños con arco de globos multicolor, paneles decorativos y letrero Feliz Cumpleaños"
+                 loading="lazy">
+            <span class="photo-label">Resultado ✨</span>
+          </div>
+          <figcaption>
+            <strong>Un primer cumpleaños que sí se siente especial.</strong>
+            <span>La decoración no sólo llena el espacio: crea el escenario de la celebración.</span>
+          </figcaption>
+        </figure>
+
+        <figure class="real-shot real-shot--offset">
+          <div class="real-shot-image">
+            <img src="./assets/images/evento-cumpleanos-02.webp"
+                 alt="Montaje previo con arco de globos multicolor, panel de madera y panel blanco"
+                 loading="lazy">
+            <span class="photo-label photo-label--alt">El montaje 🎈</span>
+          </div>
+          <figcaption>
+            <strong>Antes de que llegue la gente.</strong>
+            <span>La estructura, los volúmenes y cada elemento tomando su lugar.</span>
+          </figcaption>
+        </figure>
+
+        <article class="gallery-story-card">
+          <span class="gallery-story-number">OH!</span>
+          <p class="eyebrow">Lo que hacemos</p>
+          <h3>No rentamos sólo mobiliario.<br>Creamos la escena.</h3>
+          <p>
+            Combinamos mobiliario decorativo, fondos, globos y composición para que tu evento
+            deje de sentirse cotidiano y empiece a sentirse memorable.
+          </p>
+          <a class="text-link" href="#cotiza">Quiero crear mi escenario →</a>
+        </article>
       </div>
     </section>
 
@@ -289,8 +346,8 @@
 
   <footer class="site-footer">
     <div>
-      <a class="brand brand--footer" href="#inicio">
-        <span class="brand-mark">OH</span><span class="brand-word">PARTY!</span>
+      <a class="brand brand--footer brand--footer-image" href="#inicio" aria-label="Oh Party!">
+        <img src="./assets/images/oh-party-logo-dark.png" alt="Oh Party!">
       </a>
       <p>Celebraciones con personalidad.</p>
     </div>

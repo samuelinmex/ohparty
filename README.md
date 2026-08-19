@@ -52,3 +52,11 @@ La versión v2 incluye un sistema de movimiento sin librerías externas:
 - compatibilidad con `prefers-reduced-motion` para accesibilidad.
 
 La intención es que se sienta divertido sin perder una apariencia premium.
+
+
+## Identidad visual integrada
+
+Esta versión ya integra el logo real de Oh Party!, sus variantes para web,
+favicon y las dos fotografías reales proporcionadas para la sección visual del sitio.
+
+No muevas los archivos fuera de `/assets/images/` sin actualizar sus rutas en `index.html`.
