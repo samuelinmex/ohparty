@@ -70,3 +70,12 @@ oh-party/
 
 - `evento-cumpleanos-40-original.png`
   - Copia original sin optimización.
+
+## Nuevo evento — Baby shower
+
+- `evento-baby-shower.webp`
+  - Fotografía optimizada para la galería web.
+  - Baby shower en jardín con decoración rosa, mariposas, aro dorado y bloques BABY.
+
+- `evento-baby-shower-original.png`
+  - Archivo original adjunto, conservado sin modificación visual.

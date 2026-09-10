@@ -1618,3 +1618,32 @@ body:not(.is-loading) .scribble::after {
     margin-top: 0;
   }
 }
+
+
+/* Nuevo evento real: Baby shower */
+.real-shot--baby {
+  margin-top: 54px;
+}
+
+.photo-label--baby {
+  background: #ffb9d8;
+}
+
+@media (min-width: 951px) {
+  .gallery-story-card {
+    grid-column: 1 / -1;
+    margin-top: 14px;
+  }
+}
+
+@media (max-width: 950px) {
+  .real-shot--baby {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .real-shot--baby {
+    margin-top: 0;
+  }
+}

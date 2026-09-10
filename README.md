@@ -69,3 +69,8 @@ Se agregó una tercera fotografía real a la galería:
 
 También se conserva el archivo original:
 `/assets/images/evento-cumpleanos-40-original.png`
+
+## Actualización — Baby shower
+
+Se agregó un nuevo evento real a la galería con fotografía, etiqueta y descripción.
+La imagen web está en `assets/images/evento-baby-shower.webp`.
